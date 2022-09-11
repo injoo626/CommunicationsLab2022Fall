@@ -1,0 +1,51 @@
+.filmposter {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.filmtitle{
+    position: absolute;
+    top: 530px;
+    left: 770px;
+}
+
+.director{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    transform: rotate(270deg);
+    color: black;
+    position: absolute;
+    top: 450px;
+    left: 770px;
+}
+
+.moodboard{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    transform: rotate(270deg);
+    color: black;
+    position: absolute;
+    top: 440px;
+    left: 850px;
+}
+
+.location{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    transform: rotate(270deg);
+    color: black;
+    position: absolute;
+    top: 450px;
+    left: 950px;
+}
+
+.sound{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    transform: rotate(270deg);
+    color: black;
+    position: absolute;
+    top: 490px;
+    left: 1080px;
+}
