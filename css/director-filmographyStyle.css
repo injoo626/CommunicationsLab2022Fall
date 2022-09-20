@@ -1,0 +1,130 @@
+/* menu style */
+.menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+}
+
+/* menu content style */
+.menuContent{
+    position: absolute;
+    padding: 5px;
+    border-radius: 2px;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+/* locations of menus without dropdown */
+.moodboard{
+    top: 50px;
+    left: 615px;
+}
+.location{
+    top: 50px;
+    left: 875px;
+}
+.director1{
+    top: 50px;
+    left: 370px;
+}
+
+/* MAIN dropdown menu */
+.main{
+    top: 27px;
+    left: 210px;
+}
+.mainMenu{
+    position: relative;
+    display: inline-block;
+}
+.main-content{
+    display: none;
+    top: 68px;
+    left: 215px;
+}
+.main-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.main-content a:hover {background-color:#d1b15a;}
+.mainMenu:hover .main-content {display:block;}
+
+/* SOUND dropdown menu */
+.sound{
+    top: 27px;
+    left: 1110px;
+}
+.soundMenu{
+    position: relative;
+    display: inline-block;
+}
+.sound-content{
+    display: none;
+    top: 68px;
+    left: 1116px;
+}
+.sound-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.sound-content a:hover {background-color: #d1b15a;}
+.soundMenu:hover .sound-content {display:block;}
+
+.show{display:block;}
+
+
+/* --- page contents --- */
+.dFilmo{
+    width: 400px;
+    position: absolute;
+    left: 190px;
+    top: 160px;
+}
+
+/* filmography videos */
+.video1{
+    position: absolute;
+    width: 300px;
+    top: 160px;
+    left: 645px;
+}
+.video2{
+    position: absolute;
+    width: 300px;
+    top: 160px;
+    left: 975px;
+}
+.video3{
+    position: absolute;
+    width: 300px;
+    top: 340px;
+    left: 645px;
+}
+.video4{
+    position: absolute;
+    width: 300px;
+    top: 340px;
+    left: 975px;
+}
+.video5{
+    position: absolute;
+    width: 300px;
+    top: 520px;
+    left: 645px;
+}
+/* link to director's archive */
+.channel{
+    text-align: center;
+    width: 300px;
+    top: 560px;
+    left: 975px;
+}

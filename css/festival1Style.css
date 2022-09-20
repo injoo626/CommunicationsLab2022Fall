@@ -1,0 +1,140 @@
+/* menu style */
+.menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+}
+
+/* menu content style */
+.menuContent{
+    position: absolute;
+    padding: 5px;
+    border-radius: 2px;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+/* locations of menus without dropdown */
+.moodboard{
+    top: 50px;
+    left: 615px;
+}
+.location{
+    top: 50px;
+    left: 875px;
+}
+
+/* MAIN dropdown menu */
+.main{
+    top: 27px;
+    left: 210px;
+}
+.mainMenu{
+    position: relative;
+    display: inline-block;
+}
+.main-content{
+    top: 68px;
+    left: 215px;
+    display: none;
+}
+.main-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+} 
+.main-content a:hover {background-color:#d1b15a;}
+.mainMenu:hover .main-content {display:block;}
+
+/* DIRECTOR dropdown menu*/
+.director1{
+    padding:none;
+    top: 27px;
+    left: 355px;
+}
+.directorMenu{
+    position: relative;
+    display: inline-block;
+}
+.director-content{
+    display: none;
+    top: 80px;
+    left: 359px;
+}
+.director-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.director-content a:hover {background-color:#d1b15a;}
+.directorMenu:hover .director-content {display:block;}
+
+/* SOUND dropdown menu*/
+.sound{
+    top: 27px;
+    left: 1110px;
+}
+.soundMenu{
+    position: relative;
+    display: inline-block;
+}
+.sound-content{
+    top: 68px;
+    left: 1118px;
+    display: none;
+}
+.sound-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.sound-content a:hover {background-color: #d1b15a;}
+.soundMenu:hover .sound-content {display:block;}
+
+.show{display:block;}
+
+
+/* --- page contents --- */
+.festivalLogo{
+    position: absolute;
+    top: 160px;
+    left: 450px;
+}
+.aboutFestival{ /* paragraph style */
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+}
+/* paragraph size and location */
+.content1{
+    width: 300px;
+    top: 220px;
+    left: 200px;
+}
+.content2{
+    width: 300px;
+    top: 400px;
+    left: 190px;
+}
+.content3{
+    text-align: right;
+    width: 300px;
+    top: 220px;
+    left: 950px;
+}
+.content4{
+    text-align: right;
+    width: 280px;
+    top: 360px;
+    left: 980px;
+}
+

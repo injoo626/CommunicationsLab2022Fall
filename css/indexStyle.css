@@ -1,51 +1,103 @@
-.filmposter {
+/* Tooltip code reference from the source below
+https://www.w3schools.com/css/css_tooltip.asp */
+
+/* hidden text in the poster */
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+}
+.tooltip1 .tooltiptext1 { /* hidden text box */
+    visibility: hidden;
+    width: 120px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    background-color: #d1b15a;
+    color: black;
+    text-align: center;
+    padding: 1px 0;
+    border-radius: 6px;
     position: absolute;
-    top: 40px;
-    left: 200px;
+    top: 350px;
+    left: 50px;
+}
+.tooltip1:hover .tooltiptext1 { /* text box appears when mouse hovers */
+    visibility: visible;
 }
 
+/* hidden text in the festival logo */
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+}
+.tooltip2 .tooltiptext2 { /* hidden text box*/
+    visibility: hidden;
+    width: 150px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    background-color: #ada899;
+    color: black;
+    text-align: center;
+    padding: 1px 0;
+    border-radius: 6px;
+    position: absolute;
+    top: 230px;
+    left: 1145px;
+}
+.tooltip2:hover .tooltiptext2 { /* text box appears when mouse hovers */
+    visibility: visible;
+}
+
+/* menu style */
+.menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    background-color: #ada899;
+    color: black;
+    border: none;
+    position: absolute;
+    transform: rotate(270deg);
+}
+
+/* location of the menu buttons */
+.director1{
+    top: 450px;
+    left: 770px;
+}
+.moodboard{
+    top: 440px;
+    left: 850px;
+}
+.location{
+    top: 450px;
+    left: 950px;
+}
+.sound{
+    top: 490px;
+    left: 1080px;
+}
+
+/* page contents */
+.filmposter {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
 .filmtitle{
     position: absolute;
     top: 530px;
     left: 770px;
 }
-
-.director{
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 40px;
-    transform: rotate(270deg);
-    color: black;
+.festivalLogo{
     position: absolute;
-    top: 450px;
-    left: 770px;
+    top: 70px;
+    left: 1140px;
+}
+.synopsis{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+    position: absolute;
+    width: 370px;
+    top: 60px;
+    left: 750px;
 }
 
-.moodboard{
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 40px;
-    transform: rotate(270deg);
-    color: black;
-    position: absolute;
-    top: 440px;
-    left: 850px;
-}
-
-.location{
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 40px;
-    transform: rotate(270deg);
-    color: black;
-    position: absolute;
-    top: 450px;
-    left: 950px;
-}
-
-.sound{
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 40px;
-    transform: rotate(270deg);
-    color: black;
-    position: absolute;
-    top: 490px;
-    left: 1080px;
-}

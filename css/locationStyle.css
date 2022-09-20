@@ -1,0 +1,161 @@
+/* menu style */
+.menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+}
+
+/* menu content style */
+.menuContent{
+    position: absolute;
+    padding: 5px;
+    border-radius: 2px;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+/* locations of menus without dropdown */
+.moodboard{
+    top: 50px;
+    left: 615px;
+}
+.location{
+    top: 50px;
+    left: 875px;
+}
+
+/* MAIN dropdown menu */
+.main{
+    top: 27px;
+    left: 210px;
+}
+.mainMenu{
+    position: relative;
+    display: inline-block;
+}
+.main-content{
+    display: none;
+    top: 68px;
+    left: 215px;
+}
+.main-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.main-content a:hover {background-color:#d1b15a;}
+.mainMenu:hover .main-content {display:block;}
+
+/* SOUND dropdown menu */
+.sound{
+    top: 27px;
+    left: 1110px;
+}
+.soundMenu{
+    position: relative;
+    display: inline-block;
+}
+.sound-content{
+    display: none;
+    top: 68px;
+    left: 1116px;
+}
+.sound-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.sound-content a:hover {background-color: #d1b15a;}
+.soundMenu:hover .sound-content {display:block;}
+
+/* DIRECTOR dropdown menu*/
+.director1{
+    top: 27px;
+    left: 355px;
+}
+.directorMenu{
+    position: relative;
+    display: inline-block;
+}
+.director-content{
+    display: none;
+    top: 68px;
+    left: 359px;
+}
+.director-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.director-content a:hover {background-color:#d1b15a;}
+.directorMenu:hover .director-content {display:block;}
+
+.show{display:block;}
+
+/* --- page contents --- */
+.locationDescription{ /* general description */
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    width: 300px;
+    left: 235px;
+    top: 215px;
+}
+.locationPhoto{ /* size of photos */
+    width: 300px;
+    position: absolute;
+}
+.photoDescription{ /* caption style */
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    color: black;
+    background-color: #ada899;
+    text-align: center;
+    position: absolute;
+    width: 294px;
+    padding: 3px;
+}
+
+/* locations of each photo and caption */
+.p1{ /* photo 1 */
+    top: 200px;
+    left: 585px;
+}
+.d1{
+    top: 370px;
+    left: 585px;
+}
+.p2{ /* photo 2 */
+    top: 450px;
+    left: 585px;
+}
+.d2{
+    top: 620px;
+    left: 585px;
+}
+.p3{ /* photo 3 */
+    top: 200px;
+    left: 935px;
+}
+.d3{
+    top: 370px;
+    left: 935px;
+}
+.p4{ /* photo 4 */
+    top: 450px;
+    left: 935px;
+}
+.d4{
+    top: 620px;
+    left: 935px;
+}
+

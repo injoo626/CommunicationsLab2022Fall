@@ -1,0 +1,110 @@
+/* menu style */
+.menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+}
+/* menu content style */
+.menuContent{
+    position: absolute;
+    padding: 5px;
+    border-radius: 2px;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+/* location of menus without dropdown */
+.moodboard{
+    top: 50px;
+    left: 615px;
+}
+.location{
+    top: 50px;
+    left: 875px;
+}
+.director1{
+    top: 50px;
+    left: 370px;
+}
+.directorfilmo{
+    bottom: 150px;
+    left: 1000px;
+}
+
+/* MAIN dropdown menu */
+.main{ /* location of the button */
+    top: 27px;
+    left: 210px;
+}
+.mainMenu{ 
+    position: relative;
+    display: inline-block;
+}
+.main-content{ /* location of the dropdown menu (hidden at default) */
+    top: 68px;
+    left: 215px;
+    display: none;
+}
+.main-content a { /* style of the dropdown menu */
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+} 
+.mainMenu:hover .main-content { /* dropdown menu appears when mouse hover */
+    display:block;
+}
+.main-content a:hover { /* dropdown menu change color when mouse hover */
+    background-color:#d1b15a;
+} 
+
+
+/* SOUND dropdown menu */
+/* details are the same with the MAIN dropdown menu */
+.sound{
+    top: 27px;
+    left: 1110px;
+}
+.soundMenu{
+    position: relative;
+    display: inline-block;
+}
+.sound-content{
+    top: 68px;
+    left: 1118px;
+    display: none;
+}
+.sound-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.soundMenu:hover .sound-content {display:block;}
+.sound-content a:hover {background-color: #d1b15a;}
+
+.show{display:block;}
+
+
+/* page contents */
+.dMain{
+    width: 1440px;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+}
+.directorStory{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    width: 800px;
+    text-align: center;
+    bottom: 100px;
+    left: 100px;
+}

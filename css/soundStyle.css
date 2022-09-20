@@ -1,0 +1,115 @@
+/* menu style */
+.menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+}
+
+/* menu content style */
+.menuContent{
+    position: absolute;
+    padding: 5px;
+    border-radius: 2px;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+/* locations of menus without dropdown */
+.moodboard{
+    top: 50px;
+    left: 615px;
+}
+.location{
+    top: 50px;
+    left: 875px;
+}
+.sound{
+    top: 50px;
+    left: 1100px;
+}
+
+/* MAIN dropdown menu */
+.main{
+    top: 27px;
+    left: 210px;
+}
+.mainMenu{
+    position: relative;
+    display: inline-block;
+}
+.main-content{
+    top: 72px;
+    left: 215px;
+    display: none;
+}
+.main-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+} 
+.main-content a:hover {background-color:#d1b15a;}
+.mainMenu:hover .main-content {display:block;}
+
+/* DIRECTOR dropdown menu*/
+.director1{
+    top: 27px;
+    left: 355px;
+}
+.directorMenu{
+    position: relative;
+    display: inline-block;
+}
+.director-content{
+    display: none;
+    top: 72px;
+    left: 359px;
+}
+.director-content a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+.director-content a:hover {background-color:#d1b15a;}
+.directorMenu:hover .director-content {display:block;}
+
+.show{display:block;}
+
+/* --- page contents --- */
+.album{ 
+    position: absolute;
+    width: 350px;
+    top: 200px;
+    left: 250px;
+}
+.albumDescription{ 
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    position: absolute;
+    width: 500px;
+    top: 200px;
+    left: 710px;
+}
+.descriptionSource{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    position: absolute;
+    width: 500px;
+    top: 400px;
+    left: 710px;
+}
+.mv{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+    position: absolute;
+    color: black;
+    width: 550px;
+    top: 480px;
+    left: 710px;
+}
