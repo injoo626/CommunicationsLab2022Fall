@@ -4,6 +4,10 @@
 ### Project Description
 ### Development Process
 ### Reflection
+### Code References
+- Clickable Dropdown Menu: https://www.w3schools.com/howto/howto_js_dropdown.asp
+- Hoverable Dropdown Menu: https://www.w3schools.com/howto/howto_css_dropdown.asp
+- Hidden Text: https://www.w3schools.com/css/css_tooltip.asp
 
 Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
 Process: How did you go about implementing the concept.
