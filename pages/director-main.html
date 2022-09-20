@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+    <meta charset="utf-8" /> 
+    <title>director-main</title>  
+    <link rel="stylesheet" href="../css/director-mainStyle.css"> 
+</head>
+<body>
+    <script src = "../javascript/dropdown.js"></script>
+
+    <!-- dropdown menu of MAIN -->
+    <div class = "mainMenu">
+        <button onclick = "showMainMenu()" class = "menu main"> <u>MAIN</u> </button>
+        <div id = "mainDropDown" class = "menuContent main-content">
+            <a class = "main-sub" href = "../index.html">  MAIN </a>
+            <a class = "main-sub" href = "https://www.youtube.com/embed/aQCLIz4JYS8"> Watch <em>Marhaba</em> </a>
+            <a class = "main-sub" href = "../pages/festival1.html"> 30min FF </a>
+        </div>
+    </div>
+
+    <!-- dropdown menu of SOUND -->
+    <div class = "soundMenu">
+        <button onclick = "showSoundMenu()" class = "menu sound"> <u>SOUND</u> </button>
+        <div id = "soundDropDown" class = "menuContent sound-content">
+            <a class = "sound-sub" href = "../pages/sound.html"> Album </a>
+            <a class = "sound-sub" href = "https://www.youtube.com/embed/8F2s8ivKXNY"> Music Video</a>
+        </div>
+    </div>
+
+    <!-- menus without dropdown -->
+    <a class = "menu moodboard" href = "../pages/moodboard.html"> MOODBOARD </a>
+    <a class = "menu location" href = "../pages/location.html"> LOCATION </a>
+    <a class = "menu director1" href = "../pages/director-main.html"> <span style = "background-color: #ada899"> DIRECTOR </span></a>
+    
+    <!-- director's photos -->
+    <img class = "dMain" src = "../images/directorMain.png"/>
+
+    <!-- director's biography -->
+    <p class = directorStory>
+        <span style = "background-color: #d1b15a">Injoo Kang</span> is a South Korean videographer/photographer 
+        studying in New York University Abu Dhabi. She is majoring in <strong> Interactive Media</strong> and minoring 
+        in <strong> Film</strong>. She captures <span style = "background-color: #d1b15a">cherishable</span> moments 
+        in her life and archives them in the form of moving pictures. 
+    </p>
+
+    <!-- link to the filmography page -->
+    <a class = "menu directorfilmo" href = "../pages/director-filmography.html"> FILMOGRAPHY </a>
+</body>
+</html>

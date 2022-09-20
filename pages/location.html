@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+    <meta charset="utf-8" /> 
+    <title>location</title>  
+    <link rel="stylesheet" href="../css/locationStyle.css"> 
+</head>
+<body>
+    <script src = "../javascript/dropdown.js"></script>
+
+    <!-- dropdown menu of MAIN -->
+    <div class = "mainMenu">
+        <button onclick = "showMainMenu()" class = "menu main"> <u>MAIN</u> </button>
+        <div id = "mainDropDown" class = "menuContent main-content">
+            <a class = "main-sub" href = "../index.html">  MAIN </a>
+            <a class = "main-sub" href = "https://www.youtube.com/embed/aQCLIz4JYS8"> Watch <em>Marhaba</em> </a>
+            <a class = "main-sub" href = "../pages/festival1.html"> 30min FF </a>
+        </div>
+    </div>
+
+    <!-- dropdown menu of DIRECTOR -->
+    <div class = "directorMenu">
+        <button onclick = "showDirectorMenu()" class = "menu director1"> <u>DIRECTOR</u> </button>
+        <div id = "directorDropDown" class = "menuContent director-content">
+            <a class = "director-sub" href = "../pages/director-main.html"> Biography </a>
+            <a class = "director-sub" href = "../pages/director-filmography.html"> Filmography </a>
+        </div>
+    </div>
+
+    <!-- dropdown menu of SOUND -->
+    <div class = "soundMenu">
+        <button onclick = "showMenu()" class = "menu sound"> <u>SOUND</u> </button>
+        <div id = "soundDropDown" class = "menuContent sound-content">
+            <a class = "sound-sub" href = "../pages/sound.html"> Album </a>
+            <a class = "sound-sub" href = "https://www.youtube.com/embed/8F2s8ivKXNY"> Music Video</a>
+        </div>
+    </div>
+
+    <!-- menus without dropdown -->
+    <a class = "menu moodboard" href = "../pages/moodboard.html"> MOODBOARD </a>
+    <a class = "menu location" href = "../pages/location.html"> <span style = "background-color: #ada899"> LOCATION </span> </a>
+
+    <!-- general description of the locations -->
+    <p class = "locationDescription"> 
+        <em>Marhaba</em> was filmed in the <span style = "background-color: #d1b15a;">Campus Center</span> (C2) of the New York University Abu Dhabi.
+        It specifically filmed the interaction on the <strong> ground floor </strong> of the building, the very first place the students 
+        step in during the checkin process. <br> <br> Refer to the photos on the right for greater details on 
+        the specific locations. 
+    </p>
+
+    <!-- photo of each location -->
+    <img class = "locationPhoto p1" src = "../images/location1.jpg"/>
+    <img class = "locationPhoto p2" src = "../images/location2.jpg"/>
+    <img class = "locationPhoto p3" src = "../images/location3.jpg"/>
+    <img class = "locationPhoto p4" src = "../images/location4.jpg"/> 
+    
+    <!-- detail of each location -->
+    <p class = "photoDescription d1"> Elevator near the West Forum </p>
+    <p class = "photoDescription d2"> Palm trees in front of C2 </p>
+    <p class = "photoDescription d3"> Couch area in the West Forum </p>
+    <p class = "photoDescription d4"> Visiting students welcome poster </p>
+</body>
+</html>
