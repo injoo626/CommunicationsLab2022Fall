@@ -2,9 +2,11 @@
 ## 30 Minutes Film Festival Website 
 
 ### Project Description
-Project Marhaba is an website that introduces a short film of the same title and the 30 Minutes Film Festival. The film *Marhaba* revolves around the concept of **welcoming** the new comers. We have all been newcomers at some point in our lives: new to school, work, family, and many more. First days are always a odd mixture of anxiety and excitement. How do you remember those moments? How were you welcomed? How did you welcome others? *Marhaba* captures the emotions of the first week of university. 
+  Project Marhaba is an website that introduces a short film of the same title and the 30 Minutes Film Festival. The film *Marhaba* revolves around the concept of **welcoming** the new comers. We have all been newcomers at some point in our lives: new to school, work, family, and many more. First days are always a odd mixture of anxiety and excitement. How do you remember those moments? How were you welcomed? How did you welcome others? *Marhaba* captures the emotions of the first week of university. 
 
-Unlike the film which relatively uses various colors, the website is built based on only **two** toned-down colors to increase the communicatability. Two colors are extracted from the poster to match the general mood. The website not only delivers the information for the audience but also includes details that might be helpful for other artists. For example, artists on a location hunt can get information about filmable spaces in Campus Center from the LOCATION tab. 
+  The website delivers the information about the film that could enhance the audience's understanding. The DIRECTOR's page includes a short biography of the director and her filmography so that the audience can get a quick overview of the artist's style and perspective. The website further encourages fellow artists by sharing details of the film that might be helpful for them. For example, artists on a location hunt can get information about filmable spaces in Campus Center from the LOCATION tab. 
+  
+  Unlike the film which relatively uses various colors, the website is built based on only **two** toned-down colors to increase the communicatability. For a coherent appearnace, all texts are in the same font but different sizes and styles. 
 
 ### Development Process
 
