@@ -8,7 +8,9 @@
 
 ### Development Process
    The website is built based on only **two** toned-down colors extracted from the film poster to increase the communicatability. For a coherent appearnace, all texts are in the same font but different sizes and styles. Four menu buttons on top of each page were not included in the initial design of the website but later added for users' convenience. The buttons change color to indicate the current page which helps users easily navigate between different pages on the website. 
+   
    Pages with multiple sub-pages have dropdown menus so that users can go to the wanted page on a click. Dropdown menu appears when users hover over the menu button. I first made the menu to appear only when hover but later included a clickable feature. I had inconvenient experience with dropdown menus when the menu disappeared as I try to click the sub-content. I solved the problem by making the dropdown menu stay when a user clicks on it. When the user clicks it again the menu disappears. 
+   
    
 ### Reflection
 
